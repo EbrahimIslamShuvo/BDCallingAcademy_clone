@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+.up_nav{
+    background-color: rgb(33, 27, 82);
+}
+.up_mav_holder{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+}
+.phone{
+    color:rgb(253, 196, 73);
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    color: white;
+}
+.nav{
+    position: sticky;
+    top: 0;
+    background-color: rgb(207, 250, 254) ;
+    padding: 10px 0;
+}
+.nav_holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.logo img{
+    width: 100px;
+}
+.menu{
+    display: flex;
+}
+.menu p{
+    color: oklch(0.746477 0.0216 264.436);
+    padding: 8px 16px;
+}
+.btn button{
+    color: oklch(0.746477 0.0216 264.436);
+    border: none;
+    background-color: transparent;
+    font-size: large;
+}
+#login{
+    border-right: 1.6px solid rgb(253, 196, 73);
+    padding-right: 12px;
+}
+#register{
+    padding-left: 12px;
+}
+.hero{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 100px;
+    font-family: "Hind Siliguri", sans-serif;
+}
+.hero_left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.hero_right{
+    width: 50%;
+}
+.hero_heading_1{
+    display: flex;
+    align-items: end;
+}
+.hero_heading_1 img{
+    width: 50px;
+}
+.hero_heading_1 p{
+    color: rgb(59, 130, 246);
+    margin: 8px 0;
+    font-size: 17px;
+}
+.hero_heading_2{
+    margin: 0;
+    padding: 0;
+}
+.hero_heading_2 p{
+    margin: 0 0 16px;
+    font-size: 34px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.hero_heading_3{
+    margin: 0;
+    padding: 0;
+}
+.hero_heading_3 p{
+    font-size: 50px;
+    color: rgb(59, 130, 246);
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.hero_description p{
+    color: oklch(0.746477 0.0216 264.436);
+    margin-bottom: 50px;
+}
+.hero_btn{
+    font-family: "Hind Siliguri", sans-serif;
+    display: flex;
+    gap: 30px;
+}
+.hero_btn_1{
+    background-color: rgb(59, 130, 246);
+    display: flex;
+    align-items: center;
+    color: white;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+.hero_btn_1 i{
+    padding: 20px;
+    padding-right: 0;
+}
+.hero_btn_1 p{
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.hero_btn_2{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    color: rgb(59, 130, 246);
+    border: 2px solid rgb(59, 130, 246);
+    border-radius: 10px;
+    padding: 16px;
+    font-weight: bold;
+}
+.hero_video iframe {
+    border-radius: 10px; 
+    overflow: hidden;
+}
+
+.option{
+    background-color: black;
+    padding: 20px;
+    margin-top: 100px;
+}
+.option_holder{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.option_1{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 257px;
+    gap: 10px;
+}
+.option_2{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 257px;
+    gap: 10px;
+}
+.option_1 img{
+    width: 60px;
+}
+.option_1 p{
+    color: oklch(0.746477 0.0216 264.436);
+    font-size: 24px;
+}
+.option_2 img{
+    width: 60px;
+}
+.option_2 p{
+    color: oklch(0.746477 0.0216 264.436);
+    font-size: 24px;
+}
+.option button{
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    gap: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+.option button p{
+    color: white;
+    font-size: 15px;
+}
+.we{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.we_head p{
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: oklch(0.746477 0.0216 264.436);
+}
+.we_body{
+    display: flex;
+    gap: 70px;
+    margin-top: 40px;
+}
+.we_body_box{
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 10px;
+    background-color: rgb(250, 247, 247);
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.we_body_box h4{
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(37, 99, 235);
+}
+.we_body_box p{
+    font-size: 20px;
+}
+.footer_section{
+    background-color: rgb(37, 34, 34);
+    color: oklch(0.746477 0.0216 264.436);
+}
+.footer_holder{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    height: 200px;
+    align-items: start;
+    padding: 40px;
+    line-height: 1.6;
+}
+.compamy_details{
+    line-height: 1.9;
+}
+.compamy_details .phone{
+    display: flex;
+    align-items: center;
+}
+.service_details_heading{
+    margin-bottom: 30px;
+}
+.company_heading{
+    margin-bottom: 30px;
+}
+.social_image img{
+    width: 30px;
+    margin-right: 15px;
+}
+.social_heading{
+    margin-bottom: 10px;
+}
+.social{
+    margin-bottom: 70px;
+}
+.developer h2{
+    color: white;
+}
+.developer a{
+    color: blue;
+}
