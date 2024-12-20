@@ -1,9 +1,11 @@
 *{
     margin: 0;
-    padding: 0;;
+    padding: 0;
+    font-family: "Hind Siliguri", sans-serif;
 }
 .up_nav{
     background-color: rgb(33, 27, 82);
+    padding: 6px;
 }
 .up_mav_holder{
     display: flex;
@@ -40,10 +42,17 @@
 .menu{
     display: flex;
 }
-.menu p{
+.menu p {
     color: oklch(0.746477 0.0216 264.436);
     padding: 8px 16px;
+    border-radius: 10px;
 }
+
+.menu p:hover {
+    background-color: rgb(183, 243, 249);
+    cursor: pointer;
+}
+
 .btn button{
     color: oklch(0.746477 0.0216 264.436);
     border: none;
@@ -283,4 +292,75 @@
 }
 .developer a{
     color: blue;
+}
+.course{
+    background-color: black;
+    color: oklch(0.746477 0.0216 264.436);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    padding: 50px;
+}
+.course h3{
+    font-size: 48px;
+}
+.course p{
+    font-size: 20px;
+}
+.student_review_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: oklch(0.746477 0.0216 264.436);
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.student_review_heading h3{
+    font-size: 48px;
+}
+.student_review_heading p{
+    font-size: 20px;
+}
+.student_review_body_holder{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.student_review_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    width: 27%;
+    line-height: 1.6;
+    background-color: rgb(244, 239, 239);
+    border-radius: 10px;
+    padding: 32px 22px;
+}
+.student_review_body_comment{
+    margin: 50px 0;
+}
+.student_details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto; 
+}
+.student_review_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.student_review_link a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2.5px solid black;
+    line-height: 2.5;
+    font-weight: bold;
+}
+.student_review_link a:hover{
+    color: oklch(0.746477 0.0216 264.436);
+    border-bottom: 2.5px solid oklch(0.746477 0.0216 264.436);
 }
